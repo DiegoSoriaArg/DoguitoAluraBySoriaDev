@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "http://localhost:5000"
+    baseURL: "https://testapi-doguitoreactrouter.onrender.com/"
 });
 
 export const buscar = async (url, setData) => {
